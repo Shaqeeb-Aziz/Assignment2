@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us"
+    android:background="@drawable/backimg1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/support"
+        android:text="Support"
+        android:layout_marginLeft="15dp"
+        android:textSize="25sp"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email"
+        android:layout_below="@+id/support"
+        android:text="Email"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eaddress"
+        android:layout_below="@+id/Email"
+        android:text="Shaqeeb.Aziz@gmail.com"
+        android:layout_marginLeft="15dp"
+        android:textSize="17sp"
+        android:hint="@android:string/copyUrl"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:layout_below="@+id/support"
+        android:text="Phone"
+        android:layout_marginLeft="240dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num"
+        android:layout_below="@+id/phone"
+        android:text="+92 304 7691116"
+        android:layout_marginLeft="240dp"
+        android:textSize="17sp"
+        android:hint="@android:string/copyUrl"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/st"
+        android:layout_below="@+id/eaddress"
+        android:hint="      Support team"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+        android:background="#13bf83"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:inputType="text" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/chat"
+        android:layout_below="@+id/st"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/msg"
+        android:layout_below="@+id/st"
+        android:hint="     Hey ! How may I help you ?"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="110dp"
+        android:focusable="true"
+        android:textSize="13sp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tim"
+        android:textColor="#a2a39d"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="82dp"
+        android:layout_marginLeft="250dp"
+        android:text="12:42 pm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="Copyrights 2021-2022 Smart AI Organization" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:text="All rights reserved"/>
+
+
+</RelativeLayout>

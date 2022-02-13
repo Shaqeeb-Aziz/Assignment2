@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_activity"
+    android:background="@drawable/backimg1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="240dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/Fname"
+        android:layout_below="@+id/sign_in"
+        android:hint="First Name"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/lname"
+        android:layout_below="@+id/Fname"
+        android:hint="Last Name"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/email"
+        android:layout_below="@+id/lname"
+        android:hint="Email Address"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/code"
+        android:layout_below="@+id/email"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:focusable="true"
+        android:textSize="18sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="Register"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#fff200"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:text="Copyrights 2021-2022 Smart AI Organization" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:text="All rights reserved"/>
+
+</RelativeLayout>
